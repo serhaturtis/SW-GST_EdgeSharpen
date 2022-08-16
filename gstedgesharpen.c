@@ -40,7 +40,8 @@
 #include <gst/video/gstvideofilter.h>
 #include "gstedgesharpen.h"
 
-GST_ELEMENT_REGISTER_DEFINE(edgesharpen, "edgesharpen", GST_RANK_NONE, GST_TYPE_EDGESHARPEN);
+// Uncomment for 1.18
+//GST_ELEMENT_REGISTER_DEFINE(edgesharpen, "edgesharpen", GST_RANK_NONE, GST_TYPE_EDGESHARPEN);
 
 GST_DEBUG_CATEGORY_STATIC (gst_edgesharpen_debug_category);
 #define GST_CAT_DEFAULT gst_edgesharpen_debug_category

@@ -46,7 +46,8 @@ struct _GstEdgesharpenClass
 
 GType gst_edgesharpen_get_type(void);
 
-GST_ELEMENT_REGISTER_DECLARE (edgesharpen)
+// Uncomment for 1.18
+//GST_ELEMENT_REGISTER_DECLARE(edgesharpen);
 
 G_END_DECLS
 
